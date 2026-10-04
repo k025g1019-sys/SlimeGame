@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\基盤">
+      <UniqueIdentifier>{A1E10C1D-5C1E-4B2A-9E4E-3B9D8B7A0001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン">
+      <UniqueIdentifier>{A1E10C1D-5C1E-4B2A-9E4E-3B9D8B7A0002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト">
+      <UniqueIdentifier>{A1E10C1D-5C1E-4B2A-9E4E-3B9D8B7A0003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\演出・UI">
+      <UniqueIdentifier>{A1E10C1D-5C1E-4B2A-9E4E-3B9D8B7A0004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\基盤">
+      <UniqueIdentifier>{A1E10C1D-5C1E-4B2A-9E4E-3B9D8B7A0005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン">
+      <UniqueIdentifier>{A1E10C1D-5C1E-4B2A-9E4E-3B9D8B7A0006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト">
+      <UniqueIdentifier>{A1E10C1D-5C1E-4B2A-9E4E-3B9D8B7A0007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\演出・UI">
+      <UniqueIdentifier>{A1E10C1D-5C1E-4B2A-9E4E-3B9D8B7A0008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Easing.cpp">
+      <Filter>ソース ファイル\基盤</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade.cpp">
+      <Filter>ソース ファイル\基盤</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInput.cpp">
+      <Filter>ソース ファイル\基盤</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVariables.cpp">
+      <Filter>ソース ファイル\基盤</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x4.cpp">
+      <Filter>ソース ファイル\基盤</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClearScene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>ソース ファイル\演出・UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>ソース ファイル\演出・UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sounds.cpp">
+      <Filter>ソース ファイル\演出・UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>ソース ファイル\オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル\オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>ソース ファイル\オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>ソース ファイル\オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModels.cpp">
+      <Filter>ソース ファイル\オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCamera.cpp">
+      <Filter>ソース ファイル\オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSceneInteraction.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSceneDebug.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="PhaseData.cpp">
+      <Filter>ソース ファイル\基盤</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>ソース ファイル\演出・UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Hud.cpp">
+      <Filter>ソース ファイル\演出・UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DebugTextUtil.h">
+      <Filter>ヘッダー ファイル\基盤</Filter>
+    </ClInclude>
+    <ClInclude Include="Easing.h">
+      <Filter>ヘッダー ファイル\基盤</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade.h">
+      <Filter>ヘッダー ファイル\基盤</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfig.h">
+      <Filter>ヘッダー ファイル\基盤</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInput.h">
+      <Filter>ヘッダー ファイル\基盤</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVariables.h">
+      <Filter>ヘッダー ファイル\基盤</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtil.h">
+      <Filter>ヘッダー ファイル\基盤</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>ヘッダー ファイル\基盤</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClearScene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>ヘッダー ファイル\演出・UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>ヘッダー ファイル\演出・UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sounds.h">
+      <Filter>ヘッダー ファイル\演出・UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>ヘッダー ファイル\オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ヘッダー ファイル\オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>ヘッダー ファイル\オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>ヘッダー ファイル\オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModels.h">
+      <Filter>ヘッダー ファイル\オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCamera.h">
+      <Filter>ヘッダー ファイル\オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="PhaseData.h">
+      <Filter>ヘッダー ファイル\基盤</Filter>
+    </ClInclude>
+    <ClInclude Include="LineDrawer.h">
+      <Filter>ヘッダー ファイル\基盤</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>ヘッダー ファイル\演出・UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Hud.h">
+      <Filter>ヘッダー ファイル\演出・UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

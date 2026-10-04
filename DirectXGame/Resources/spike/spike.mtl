@@ -1,0 +1,9 @@
+# 単色の仮モデル用マテリアル（色は ObjectColor で付ける。テクスチャは白1px）
+newmtl Material
+Ns 32.0
+Ka 0.30 0.30 0.30
+Kd 0.70 0.70 0.70
+Ks 0.15 0.15 0.15
+d 1.0
+illum 2
+map_Kd white1x1.png

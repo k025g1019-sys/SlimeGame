@@ -1,0 +1,13 @@
+{
+	"_readme": "ボタン/キーの割り当て。アクション名は GameInput.cpp の kActionNames と同じ（アクションの増やし方は GameInput.h 冒頭）。keyboard: A～Z・0～9・Up/Down/Left/Right・Space・Escape・Enter・Tab・Shift/LShift/RShift・Ctrl/LCtrl/RCtrl・Alt・F1～F12。pad: A/B/X/Y/LB/RB/LT/RT/Start/Back/LS/RS。大文字小文字は区別しない。値は名前の文字列1つ（1アクションに1キー・1ボタン）。書いていないアクションは既定の割り当て（GameInput.h の kDefaultBindings）のまま。書き間違いがあると既定の割り当てのままGame Debugに赤字エラーが出る。実行中はGame DebugのReload Inputで反映できる。Flatten=平らになる（押している間）。速度調整（A/D）は移動軸（WASD・スティック・十字キー）なのでここには無い",
+	"keyboard": {
+		"Menu": "Escape",
+		"Decide": "Space",
+		"Flatten": "Space"
+	},
+	"pad": {
+		"Menu": "Start",
+		"Decide": "A",
+		"Flatten": "A"
+	}
+}
